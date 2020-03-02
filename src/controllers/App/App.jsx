@@ -18,11 +18,11 @@ class App extends Component {
         <Router key="router">
           <div>
             <Switch key="switch">
-              <Route key="tasks" path="/tasks" exact component={List} />
-              <Route key="task" path="/task/:taskId" exact component={Task} />
-              <Route key="new" path="/new" component={New} />
-              <Route key="edit" path="/edit/:taskId" component={Edit} />
-              <Redirect from="*" to="/tasks" />
+              <Route key="tasks" path="/react-todo-list/tasks" exact component={List} />
+              <Route key="task" path="/react-todo-list/task/:taskId" exact component={Task} />
+              <Route key="new" path="/react-todo-list/new" component={New} />
+              <Route key="edit" path="/react-todo-list/edit/:taskId" component={Edit} />
+              <Redirect from="*" to="/react-todo-list/tasks" />
             </Switch>
           </div>
         </Router>
