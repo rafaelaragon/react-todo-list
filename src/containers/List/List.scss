@@ -1,0 +1,61 @@
+* {
+  user-select: none;
+}
+.List {
+  background-color: rgba(192, 194, 187, 0.1);
+  text-align: center;
+  font-size: 3vh;
+  td.task {
+    width: 90vh;
+  }
+  tr {
+    transition: background-color 0.25s;
+  }
+  a {
+    color: black;
+    transition: font-weight 0.15s;
+  }
+  a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  .btn {
+    border-radius: 0 !important;
+  }
+  #num {
+    width: 2vh;
+  }
+  #num svg {
+    transition: color 0.25s;
+  }
+  #num svg:hover {
+    color: rgb(0, 0, 0);
+  }
+  #id {
+    background-color: rgba(192, 194, 187, 0.1);
+  }
+  #actions {
+    width: 8vh;
+  }
+  #icons {
+    background-color: rgba(192, 194, 187, 0.1);
+  }
+  td#icons path {
+    transition: color 0.25s;
+    cursor: pointer;
+  }
+  td#icons path:hover {
+    color: rgb(214, 140, 55);
+  }
+  svg {
+    font-size: 5vh;
+    margin: 0 1vh;
+  }
+  th svg {
+    color: rgb(77, 77, 77);
+  }
+  svg.small-icon {
+    font-size: 3vh;
+  }
+}
