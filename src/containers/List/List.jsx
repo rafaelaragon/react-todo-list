@@ -107,7 +107,7 @@ class List extends React.Component {
       <div className="Wrapper">
         <div className="List">
           <div id="addTask">
-            <Link to="/new">
+            <Link to="/react-todo-list/new">
               <Button variant="outline-success" size="lg" block>
                 <FaPlus />
               </Button>
